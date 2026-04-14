@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scoreboard.css">
+</head>
+<body>
+    <div class="board">
+        <div class="home">
+            <h1 class="heading1">HOME</h1>
+            <div class="score1">
+                <p id="homeScore" class="total1"></p>
+            </div>
+            <div class="homeButtons">
+                <button class="add1Btn" onclick="add1()">+1</button>
+                <button class="add1Btn" onclick="add2()">+2</button>
+                <button class="add1Btn" onclick="add3()">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h1 class="heading2">GUEST</h1>
+            <div class="score2">
+                <p id="guestScore" class="total2"></p>
+            </div>
+            <div class="guestButtons">
+                <button class="add1Btn" onclick="addOne()">+1</button>
+                <button class="add1Btn" onclick="addTwo()">+2</button>
+                <button class="add1Btn" onclick="addThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="scoreboard.js"></script>
+</body>
+</html>

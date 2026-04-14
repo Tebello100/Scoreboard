@@ -1,0 +1,35 @@
+@font-face{
+    font-family: DangerOnTheMotorway;
+    src: url(DangerOnTheMotorway-xV10.ttf);
+}
+
+.board{
+    display: flex;
+    justify-content: space-around;
+    background-color: #191970;
+}
+
+.score1, .score2{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 5px 0px
+}
+
+.heading1, .heading2{
+    margin-bottom: 0px;
+    color: white;
+}
+
+.add1Btn{
+    background-color: #191970;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+
+.total1, .total2{
+    font-family: DangerOnTheMotorway;
+    font-size: 30px;
+}
+
